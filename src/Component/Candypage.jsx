@@ -31,7 +31,7 @@ export default function Candypage() {
     };
 
     await axios.post("http://localhost:3000/getData", data);
-    console.log("Data saved successfully:");
+    // console.log("Data saved successfully:", response.data);
     // Reset the form after successful submission
     setName("");
     setPrice("");
